@@ -3,6 +3,7 @@ kind: Kustomization
 namespace: core
 
 resources:
+  - ../../module/secret.yaml
   - namespace.yaml
   - product
   - payment
