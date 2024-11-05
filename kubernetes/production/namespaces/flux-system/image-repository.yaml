@@ -5,3 +5,5 @@ metadata:
 spec:
   image: adhithia21/golangapp
   interval: 1m
+  secretRef:
+    name: regcred
