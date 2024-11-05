@@ -12,6 +12,8 @@ spec:
       labels:
         app: user-services
     spec:
+      imagePullSecrets:
+      - name: regcred
       containers:
       - name: user-services
         image: adhithia21/golangapp:13
