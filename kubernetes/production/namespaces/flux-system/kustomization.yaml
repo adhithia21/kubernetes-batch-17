@@ -6,3 +6,4 @@ resources:
 - ../../module/secret.yaml
 - image-repository.yaml
 - image-policy.yaml
+- image-update-automation.yaml
