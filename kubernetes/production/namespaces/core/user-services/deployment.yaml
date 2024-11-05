@@ -16,7 +16,7 @@ spec:
       - name: regcred
       containers:
       - name: user-services
-        image: adhithia21/golangapp:15 # {"$imagepolicy": "flux-system:user-services"}
+        image: adhithia21/golangapp:16 # {"$imagepolicy": "flux-system:user-services"}
         resources:
           limits:
             memory: "128Mi"
