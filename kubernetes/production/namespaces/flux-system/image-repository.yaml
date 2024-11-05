@@ -1,0 +1,7 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImageRepository
+metadata:
+  name: user-services
+spec:
+  image: adhithia21/golangapp
+  interval: 1m
