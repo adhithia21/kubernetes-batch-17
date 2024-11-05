@@ -1,0 +1,10 @@
+apiVersion: image.toolkit.fluxcd.io/v1beta2
+kind: ImagePolicy
+metadata:
+  name: user-services
+spec:
+  imageRepositoryRef:
+    name: user-services
+  policy:
+    numerical:
+      order: asc
